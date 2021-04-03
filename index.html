@@ -12,20 +12,24 @@
             color: red;
         }
 
-        div {
+        #exec-bio {
+            background-color: lightgray;
+        }
+
+        .bio-box {
             border: 1px solid black;
         }
 
-        div a {
-            color: green;
+        .bio-box a {
+            color: green;   
         }
 
-        li {
-            border: 1px solid black;
+        .bio-box-background {
+            background-color: azure;
         }
 
-        li a {
-            color: turquoise;
+        #link-1 {
+            background-color: orange;
         }
 
     </style>
@@ -34,7 +38,7 @@
 <body>
     <h1>I'm an h1</h1>
     <ul>
-        <li>
+        <li id="link-1">
             <a href="https://example.com/">Link</a>
         </li>
         <li>
@@ -45,16 +49,17 @@
         </li>
     </ul>
     <h2>I'm an h2</h2>
-      <div>
+    <!-- Don't use an id like this -->
+      <div id="exec-bio" class="bio-box bio-box-background">           
         <a href="https://example.com/">I'm a link</a>
       </div>
-      <div>
+      <div class="bio-box bio-box-background">
         <a href="https://example.com/">I'm a link</a>
       </div>
-      <div>
+      <div class="bio-box bio-box-background">
         <a href="https://example.com/">I'm a link</a>
       </div>
-      <div>
+      <div class="bio-box bio-box-background">
         <a href="https://example.com/">I'm a link</a>
       </div>
 </body>
