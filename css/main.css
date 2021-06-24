@@ -70,6 +70,12 @@ a {
 }
 
 /* HEADER STYLES */
+.header {
+    background-color: #aaa;
+    height: 300px;
+    position: relative;
+    width: 100%;
+}
 .header-nav {
     float: right;
     padding: 5.5vh 60px 0 0;
@@ -96,8 +102,10 @@ a {
 .header-nav > li:first-child a:hover {
     color: #000;
 }
-.header-nav > li:last-child a {
-    color: #fff;
+.header-logo {
+    bottom: -50px;
+    position: absolute;
+    right: 50px;
 }
 .header-nav a {
     color: #000;
