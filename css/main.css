@@ -625,8 +625,7 @@ h2 ~ p {
   width: 0;
 }
 .drop-menu {
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-  bottom: 100%;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
   display: none;
   list-style: none;
   padding: 1em 0 0;
@@ -648,7 +647,7 @@ h2 ~ p {
   background-color: #fff;
 }
 .drop-menu li ~ li {
-  border-top: 1px dotted rgba(0, 0, 0, 0.1);
+  border-top: 1px dotted rgba(0,0,0,0.1)
 }
 .drop-menu li:first-child {
   border-radius: 5px 5px 0 0;
@@ -671,7 +670,7 @@ h2 ~ p {
   white-space: nowrap;
 }
 .drop-menu a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0,0,0,0.1);
   color: #333;
 }
 /* HIDE IN THE FOOTER */
@@ -682,7 +681,6 @@ h2 ~ p {
 .footer .drop-trigger {
   padding-right: 0;
 }
-
 /* Media Queries */
 @media (max-width: 800px) {
   html {
